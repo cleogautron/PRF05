@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-image: url(./Feuille_Synthese.jpg);
+    font-family: "roboto", sans-serif, arial;
+}
+
+h1 {
+    font-size: 2.5rem; /* 2.5 x 16 = 40px */
+    margin: 15px 0 10px 0; /* haut, droite, bas, gauche */
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin: 15px 0 10px 15px;
+  }
+  h3 {
+    font-size: 1.3rem;
+    margin: 15px 0 10px 0;
+  }
+
+img{max-width: 100%;}
+
+.col-4
+{
+    float: left;
+    width: 33.333333%;
+}
+
+
+.col-4 div {
+    border:1px solid black;
+    padding: 5%;
+    margin: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    background-color: chartreuse;
+}
+main {
+
+}
+main:after
+{
+content: "";
+clear: both;
+display: block;
+}
+span{
+    border: solid black;}
