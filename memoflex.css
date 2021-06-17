@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    background-color:#6c757d; 
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+H1 {
+    color: white;
+}
+h2 {
+    text-align: left;
+    font-size: 1.75rem; 
+}
+
+h3 {
+    color: white;}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+nav ul li button {
+    background-color:#6c757d;
+    font-size: 1rem;
+    color: white;
+    width: auto;
+    height: 40px;
+    border: solid #6c757d;
+    border-radius: 5px;
+    justify-content: right;
+    margin: 5px;
+}
+
+#icon-cog-nav {
+    font-size: 1.3rem;
+    margin: 5px 0px 5px 10px;
+    color: white;
+}
+section article {
+    background-color: #6c757d;
+    border: solid #6c757d;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 10px;
+    min-height: 40px; 
+}
+
+.cardbottom {
+    display: flex;
+}
+
+#icon-cogcard {
+    font-size: 1.6rem;
+    color: white;
+    justify-content: center;
+    padding: 15px 10px 10px 30px;
+}
+.arrows {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-left-circle, .icon-right-circle {
+    color: white;
+    padding: 0 5px 10px 0;
+    font-size: 1.5rem;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+main section {
+    flex-basis: 22%;
+    margin-top: 10px;
+}
+.boutonvert {
+    background-color: green;
+    border: solid green;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+#boutonjaune {
+    background-color: #ffc107;
+    border:none;
+    border-radius: 5px;
+    justify-items: left;
+    margin:10px 5px 5px;
+    padding: 10px;
+}
+
+footer
+{
+    display: flex; 
+    background-color:#6c757d; 
+    height: 50px; 
+    align-items: center;
+    justify-content: center;
+    position: initial;
+    width: 100%;
+    bottom: 0px;
+}
+#autrescartes {
+    color: white;
+    text-decoration: none;
+}
+
+/* Media query for smaller screens */
+
+@media screen and (max-width:768px){  
+.blocpage {max-width: auto;}
+main {
+    flex-direction: column;} 
+
+nav {
+    display: flex;}
+
+nav ul {
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 2px;}
+
+nav ul li {
+margin: 2px;
+flex-direction: column;}
+}
